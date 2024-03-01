@@ -1,5 +1,3 @@
-# PokedexProyect
-
 # Pokedex
 
 Este es un proyecto de Pokedex desarrollado utilizando Django, CSS, HTML y JavaScript.
@@ -29,11 +27,29 @@ La Pokedex es una aplicación web que te permite explorar una lista de Pokemones
 
 ## Instalación y Ejecución
 
-1. Clona este repositorio en tu máquina local.
-2. Instala los requisitos del proyecto utilizando el comando `pip install -r requirements.txt`.
-3. Ejecuta las migraciones de Django con `python manage.py migrate`.
-4. Inicia el servidor de desarrollo con `python manage.py runserver`.
-5. Abre tu navegador y visita `http://localhost:8000` para ver la Pokedex en acción.
+Para instalar y ejecutar este proyecto, sigue los siguientes pasos:
+
+1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando el comando `git clone [URL del repositorio]`.
+
+2. **Crear y Activar un Entorno Virtual:** Navega al directorio del proyecto y crea un entorno virtual con el comando `python3 -m venv venv`. Luego, activa el entorno virtual:
+    - En Windows:
+      ```bash
+      venv\Scripts\activate
+      ```
+    - En macOS y Linux:
+      ```bash
+      source venv/bin/activate
+      ```
+
+3. **Instalar Django:** Dentro del entorno virtual, instala Django utilizando el comando `pip install django`.
+
+4. **Instalar Dependencias:** Ejecuta el comando `pip install -r requirements.txt` para instalar todas las dependencias necesarias.
+
+5. **Configurar la Base de Datos:** Ejecuta las migraciones de Django con el comando `python manage.py migrate` para configurar la base de datos.
+
+6. **Iniciar el Servidor:** Utiliza el comando `python manage.py runserver` para iniciar el servidor de desarrollo.
+
+7. **Acceder a la Aplicación:** Abre tu navegador web y visita `http://localhost:8000` para acceder a la Pokedex.
 
 ## Contribución
 
@@ -41,5 +57,8 @@ Si deseas contribuir a este proyecto, por favor abre un problema o envía una so
 
 ## Autor
 
-[Juan Sebastian Cano Galeano]
+[Nombre del autor]
 
+## Licencia
+
+Este proyecto está bajo la Licencia [tipo de licencia]. Para más detalles, consulta el archivo LICENSE.
